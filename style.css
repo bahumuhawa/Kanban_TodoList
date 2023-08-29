@@ -1,0 +1,154 @@
+body {
+  background: #edf0f1;
+  padding: 80px 0 0 0;
+}
+
+body,
+input,
+button {
+  font-family: "Roboto", sans-serif;
+}
+
+.noFill {
+  fill: none;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  padding: 25px;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  background: #ffd553;
+  box-shadow: 0px 2px 4px rgba(44, 62, 80, 0.15);
+}
+
+/* teksten i input-feltet */
+header input {
+  width: 95%;
+  height: 50px;
+  float: left;
+  color: #d29b6e;
+  font-size: 15px;
+  font-weight: 400;
+  text-indent: 18px;
+  padding: 0 60px 0 0;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px 25px 25px 5px;
+  border: 0px;
+  box-shadow: none;
+  outline: none;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+header input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+header button {
+  width: 50px;
+  height: 50px;
+
+  position: absolute;
+  top: 25px;
+  right: 50px;
+  z-index: 2;
+
+  border-radius: 25px;
+  background: #fff;
+  border: 0px;
+  box-shadow: none;
+  outline: none;
+  cursor: pointer;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+header button svg {
+  width: 35px;
+  animation: buttonanim 1s ease-in-out;
+}
+
+header button svg .fill {
+  fill: #ff7133;
+}
+
+#banan {
+  position: absolute;
+  bottom: 5px;
+  left: 95%;
+  animation: rotate 1s ease-in-out infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(70deg);
+  }
+
+  50% {
+    transform: rotate(55deg);
+  }
+
+  100% {
+    transform: rotate(70deg);
+  }
+}
+
+.container {
+  width: 100%;
+  float: left;
+  padding: 15px;
+}
+
+.remove svg:hover {
+  fill: rgb(224, 97, 38);
+}
+
+.info svg:hover {
+  fill: blue;
+}
+
+#viktig {
+  position: absolute;
+  z-index: 5;
+  left: 25px;
+}
+
+#Group {
+  position: absolute;
+  z-index: 5;
+  left: 150px;
+}
+
+.info {
+  width: 15px;
+  position: relative;
+}
+
+.ansatt {
+  color: #ff7133;
+}
+.remove {
+  width: 15px;
+  left: 75px;
+  bottom: 47%;
+}
+
+/* icons for viktighet */
+.label {
+  width: 15px;
+  top: 30px;
+}
+
+.buttons {
+  position: absolute;
+  padding: 22px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-basis: 200px;
+}
