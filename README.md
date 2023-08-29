@@ -1,4 +1,4 @@
-## KanBan:The Todo List App You Need for Managing Tasks.
+## KanBan:The App You Need for Managing Tasks.
 
 Simplify your work and tasks using the new Todo List app, which effectively organizes and enhances your daily productivity through the Kanban system.
 
