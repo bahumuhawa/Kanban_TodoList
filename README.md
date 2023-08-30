@@ -6,6 +6,6 @@ Check out a modern platform created using cutting-edge web technologies - HTML5,
 
 Getting started To use KanBan TodoList follow these simple steps:
 
-- Clone the KanBan TodoList repository from GitHub:git clone:https://github.com/bahumuhawa/Kanban_TodoList.git
+- Clone the KanBan TodoList repository from GitHub:https://github.com/bahumuhawa/Kanban_TodoList.git
 - Open the index.html file in your preferred web browser.
 
